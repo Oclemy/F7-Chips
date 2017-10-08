@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--META ATTRIBUTES-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <title>Camposha.info</title>
+
+    <!-- REFERENCE CSS-->
+    <link rel="stylesheet" href="assets/css/framework7.material.min.css">
+    <link rel="stylesheet" href="assets/css/framework7.material.colors.min.css">
+    <link rel="stylesheet" href="assets/css/my-app.css">
+
+  </head>
+  <body>
+
+    <!-- VIEWS-->
+    <div class="views">
+
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+
+        <!-- Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+
+            <!-- We have home navbar without left link-->
+            <div class="center sliding">Camposha.info</div>
+            <div class="right">
+              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only"> <i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+
+            <!-- Scrollable page content-->
+            <div class="page-content">
+              <div class="content-block-title">Deletable Chips / Tags</div>
+              <div class="content-block">
+                <div id="displaySectionID">
+
+                </div>
+              </div>
+              <div class="content-block">
+                <div class="row">
+                  <div class="col-50"><a href="#" id="setChipsBtn" class="button button-raised button-fill color-cyan">Set Chips</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+          <div class="toolbar-inner"><a href="#" class="link">Home</a><a href="#" class="link">About Us</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REFERENCE SCRIPTS-->
+    <script type="text/javascript" src="assets/js/framework7.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
